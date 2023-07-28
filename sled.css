@@ -11,7 +11,7 @@ header{
     background-image: url('./Scrambler-Icon-Homepage-hero-1920x1080-1.jpg');
     background-position: center;
     background-size: cover;
-    opacity: .98;
+    opacity: .88;
     color: white;
     height: 600px;
     position: relative;
@@ -67,7 +67,7 @@ ul .uk{
     height: 45px;
     position: absolute;
     right: 20px;
-    bottom: 35px;
+    bottom: 30px;
 }
 .arrow{
     display: flex;
@@ -168,7 +168,7 @@ main{
     justify-content: center;
     align-items: flex-end;
     position: relative;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .hero2{
     background-color: white;
@@ -179,41 +179,32 @@ main{
     align-items: center;
     gap: 25px;
     margin-bottom: 80px;
-    
 }
-.hero2{
-    
-}
-
-
-
-
 
 .hero2-img{
     margin-inline:20px;
     width: 400px;
     height: 400px;
-    overflow: hidden;
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 80px;
+    border-top-left-radius: 150px;
+    
 }
 .hero2-img:hover{
     box-shadow: -2px 1.5px 5px rgb(190, 189, 189);
 }
 .hero2-img img{
-    border-bottom-right-radius: 80px;
     height: 220px;
     width:100%;
     gap: 20px;
+    clip-path: polygon(25% 0, 100% 0%, 100% 70%, 74% 100%, 0 100%, 0 34%);
 }
 .hero2-img .content{
-    height: 150px;
+    clip-path: polygon(24% 0, 100% 0, 100% 62%, 70% 99%, 0 100%, 0 0);
+    height: 178px;
     margin-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-
 }
 .hero2-img h2{
     margin-top: 25px;
@@ -223,6 +214,7 @@ main{
     
 }
 .hero2-img h3{
+    margin-bottom: 30px;
     color: rgb(255, 187, 0);
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -313,6 +305,7 @@ main{
 }
 
 .section-4{
+    margin-top: 50px ;
     height: 550px;
     display: flex;
     justify-content: center;
@@ -452,3 +445,56 @@ button:hover{
     background-color:rgb(255, 187, 0) ;
     color: rgb(2, 2, 2);
 }
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section{
+    width: 900px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.footer-h2{
+    color: rgb(127, 126, 126);
+    display: flex;
+    width: 700px;
+    justify-content: space-around ;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer h3{
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: rgb(127, 126, 126);
+}
+.radio{
+    height: 50px;
+    width: 300px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.radio button{
+    background-color:rgb(255, 197, 5) ;
+    width: 170px;
+    border-radius: 2px;
+    height: 30px;
+    font-weight: bolder;
+}
+.radio button:hover{
+    background-color: black;
+    color: white;
+}
+
