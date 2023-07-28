@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+
+header{
+    background-color: black;
+    background-image: url('./Scrambler-Icon-Homepage-hero-1920x1080-1.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: .98;
+    color: white;
+    height: 600px;
+    position: relative;
+}
+
+nav ul{
+    height: 50px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-right: 30px;
+    gap: 10px;
+    list-style: none;
+}
+ul .uk{
+    height: 30px;
+    border-radius: 100px;
+}
+
+.head{
+    height: 250px;
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+}
+.head .line{
+    width: 255px;
+    height: 5px;
+    background-color: rgb(255, 193, 23) ;
+}
+.head h1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    line-height: 60px;
+
+}
+.head p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head button{
+    background-color: rgb(255, 193, 23);
+    font-weight: bolder;
+    width: 200px;
+    height: 45px;
+    border-radius: 2px;
+    padding: 10px;
+}
+.button-right{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 45px;
+    position: absolute;
+    right: 20px;
+    bottom: 35px;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 193, 23);
+    width: 45px;
+    height: 45px;
+}
+main{
+    height: auto;
+}
+
+.section-1{
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+}
+.section-head{
+    height: 250px;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+}
+.section-head h1{
+    font-size: 60px;
+    line-height: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section-head p{
+    margin-top: 25px;
+    color: dimgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.section-head .line{
+    margin-top: 30px;
+    width: 255px;
+    height: 5px;
+    background-color: rgb(255, 193, 23) ;
+}
+.hero{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.hero h1{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.hero p{
+    color: dimgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero-img{
+    margin-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height:300px;
+    transition: 0.5s ease-in-out;
+}
+.hero-img img:hover{
+    transform: scale(1.05);
+}
+.hero-img img{
+    width: 100%;
+    padding: 20px;
+}
+
+.hero button{
+    background-color: rgb(255, 193, 23);
+    font-weight: bolder;
+    width: 200px;
+    height: 40px;
+    border-radius: 2px;
+    padding: 10px;
+}
+.hero h4{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(255, 187, 0) ;
+    font-weight: bolder;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section-2{
+    
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-top: 20px;
+}
+.hero2{
+    background-color: white;
+    width:100%;
+    height: 400px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 80px;
+    
+}
+.hero2{
+    
+}
+
+
+
+
+
+.hero2-img{
+    margin-inline:20px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+.hero2-img:hover{
+    box-shadow: -2px 1.5px 5px rgb(190, 189, 189);
+}
+.hero2-img img{
+    border-bottom-right-radius: 80px;
+    height: 220px;
+    width:100%;
+    gap: 20px;
+}
+.hero2-img .content{
+    height: 150px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.hero2-img h2{
+    margin-top: 25px;
+    font-weight: bolder;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    
+}
+.hero2-img h3{
+    color: rgb(255, 187, 0);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section-2 button{
+    position: absolute;
+    background-color: rgb(255, 193, 23);
+    font-weight: bolder;
+    width: 150px;
+    height: 40px;
+    border-radius: 2px;
+    padding: 10px;
+    bottom: 0;
+    left: 20px;
+}
+.section-head2 {
+    position: absolute;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 10px;
+    left: 20px;
+}
+.section-head2 h1{
+    font-size: 60px;
+    line-height: 55px;
+}
+.section-head2 .line{
+    margin-top: 30px;
+    width: 255px;
+    height: 5px;
+    background-color: rgb(255, 193, 23) ;
+}
+.section-head2 p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: dimgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section-3{
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.section-head3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(255, 198, 42) ;
+    position: relative;
+}
+
+.hero-3{
+    height: 200px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    margin-left: 20px;
+    
+}
+.hero-3 h1{
+    font-size: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.hero-3 p{
+    font-size: 20px;
+    color: rgb(67, 66, 66);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero-3 button{
+    background-color: rgb(251, 251, 251);
+    font-weight: bolder;
+    width: 200px;
+    height: 50px;
+    border-radius: 2px;
+    padding: 10px;
+}
+.hero-3 img{
+    width: 650px;
+    position: absolute;
+    right: 50px;
+}
+
+.section-4{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+.section-h1{
+    position: absolute;
+    left: 30px;
+    top: 0;
+    font-size: 40px;
+    line-height: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section-4 .line{
+    margin-top: 20px;
+    width: 255px;
+    height: 5px;
+    background-color: rgb(255, 193, 23) ;
+}
+
+.section-head4{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero4-img{
+    width: 350px;
+    height: 400px;
+    margin-inline: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s ease-out;
+
+}
+.hero4-img img:hover{
+  transform: scale(1.05);
+}
+
+
+.hero4-img img{
+    width: 100%;
+}
+.hero4-img h1{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.hero4-img p{
+    color: dimgray;
+    margin-bottom: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero4-img button{
+    background-color: rgb(255, 193, 23);
+    font-weight: bolder;
+    width: 200px;
+    height: 40px;
+    border-radius: 2px;
+    padding: 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.hero4-img h4{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 20px;
+    color: rgb(255, 187, 0) ;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.section-5{
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.section-head5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    height: 400px;
+    width: 100%;
+    background-color: black ;
+    position: relative;
+}
+
+.hero-5{
+    height: 200px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    margin-right: 70px;
+    color: white;
+    
+}
+.hero-5 h1{
+    font-size: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.hero-5 p{
+    font-size: 20px;
+    color: rgb(234, 231, 231);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.hero-5 button{
+    background-color: rgb(251, 251, 251);
+    font-weight: bolder;
+    width: 200px;
+    height: 50px;
+    border-radius: 2px;
+    padding: 10px;
+}
+.hero-5 img{
+    width: 650px;
+    position: absolute;
+    left: 50px;
+}
+.section-5 button:hover{
+    background-color:rgb(255, 187, 0) ;
+    color: rgb(2, 2, 2);
+}
